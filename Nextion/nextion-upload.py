@@ -183,7 +183,7 @@ def upload(ser, filename, checkModel=None):
 
 if __name__ == "__main__":
     if len(sys.argv) not in [3, 4]:
-        print('Usage:\n  python nextion.py file.tft /dev/ttyUSB0 [Model]\nExample:\n  python nextion.py screen.tft /dev/ttyAMA0 NX3224T024')
+        print('Usage:\n  python nextion-upload.py file.tft /dev/ttyUSB0 [Model]\nExample:\n  python nextion.py screen.tft /dev/ttyAMA0 NX3224T024')
         exit(1)
 
     try:
